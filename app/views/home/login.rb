@@ -1,10 +1,6 @@
 # frozen_string_literal: true
 
-module Timelance
-  module Views
-    module Home
-      class Login < Timelance::View
-      end
-    end
+module Timelance::Views::Home
+  class Login < Hanami::View
   end
 end
